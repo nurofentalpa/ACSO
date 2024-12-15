@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mașinării Conștiente</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: justify;
+            text-indent: 50px;
+        }
+        header, footer {
+            background: #00006f; 
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: "Gill Sans", sans-serif;
+        }
+        nav {
+            background: #00006f;
+            text-align: center;
+            padding: 0.5rem;
+            font-family: "Gill Sans", sans-serif;
+        }
+        nav a {
+            color: grey;   		
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto; /* Margini mari în stânga și dreapta */
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 20px auto;
+        }
+        .image-description {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            margin-top: -10px; /* Micșorează spațiul de sus */
+            margin-bottom: 20px;
+        }
+        .contact {
+            background: #2323b1;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .to-top {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00006f;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            width: 150px;
+            transition: background-color 0.3s ease;
+        }
+        .to-top:hover {
+            background-color: #2323b1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mașinării Conștiente: Viitorul roboților alimentați de Inteligența Artificială</h1>
+</header>
+
+<nav>
+    <a href="#index">Acasă</a>
+    <a href="#hardware">Hardware</a>
+    <a href="#software">Software</a>
+    <a href="#etica">Etică</a>
+</nav>
+
+<div id="index" class="container">
+    <h2>Bine ați venit!</h2>
+    <p>Explorăm viitorul roboților umanoizi care combină hardware avansat, software bazat pe algoritmi AI și implicații etice profunde. Scopul acestui proiect este de a analiza complexitatea tehnologică și implicațiile sociale ale dezvoltării roboților umanoizi, inspirându-se din tematica jocului Detroit: Become Human. Prin intermediul unei abordări interdisciplinare, se dorește evidențierea modului în care tehnologiile avansate din domeniul ingineriei electrice și inteligenței artificiale pot contribui la crearea roboților care nu doar să funcționeze autonom, ci și să interacționeze natural cu oamenii. Această combinație între funcționalitate tehnică și acceptare socială este esențială pentru integrarea roboților în viața cotidiană. Dezvoltarea hardware-ului avansat reprezintă baza funcționării roboților umanoizi. Senzorii și actuatoarele permit perceperea mediului și realizarea unor mișcări fluide și expresive, similare celor umane, în timp ce unitățile de procesare eficientă asigură capacitatea de a analiza și răspunde rapid la stimuli externi. Aceste inovații sunt completate de algoritmi software sofisticați, care funcționează ca „creierul” robotului. Prin intermediul inteligenței artificiale, roboții pot învăța din experiență, pot identifica obiecte sau fețe umane, și pot purta conversații fluente prin procesarea limbajului natural. Această combinație dintre componentele fizice și sistemele software avansate este fundamentală pentru realizarea unui comportament realist și credibil.</p>
+
+<img src="connor.jpeg" alt="Imagine cu robot" width="800" height="480">
+
+
+    <p>Pentru mai multe informații legate de inteligența artificială sau noutăți din domeniul vast al științei, apasă <a href="https://www.mdpi.com/2673-2688/5/3/48" target="_blank">aici</a> pentru a naviga pe MDPI.com</p>
+<a href="#" class="to-top">Revenire Sus</a>
+</div>
+
+<!-- Pagina Hardware -->
+
+
+<div id="hardware" class="container">
+    <h2>Componente Hardware</h2>
+    <p>
+Dezvoltarea hardware-ului avansat reprezintă baza funcționării roboților umanoizi. Senzorii și actuatoarele permit perceperea mediului și realizarea unor mișcări fluide și expresive, similare celor umane, în timp ce unitățile de procesare eficientă asigură capacitatea de a analiza și răspunde rapid la stimuli externi. Aceste inovații sunt completate de algoritmi software sofisticați, care funcționează ca „creierul” robotului. Prin intermediul inteligenței artificiale, roboții pot învăța din experiență, pot identifica obiecte sau fețe umane, și pot purta conversații fluente prin procesarea limbajului natural. Această combinație dintre componentele fizice și sistemele software avansate este fundamentală pentru realizarea unui comportament realist și credibil.
+Pe lângă complexitatea tehnologică, proiectul explorează și implicațiile etice și sociale ale utilizării roboților umanoizi. Construcția de roboți capabili să simuleze emoții sau să se comporte ca niște ființe conștiente ridică întrebări importante legate de moralitate, securitate și reglementare. Este esențial ca dezvoltarea tehnologică să fie însoțită de principii etice clare care să garanteze că roboții sunt utilizați în mod responsabil și că nu creează riscuri pentru oameni. Astfel, proiectul subliniază importanța unei perspective integrate, care să reunească aspectele tehnice și considerațiile sociale, pentru a face față provocărilor și oportunităților aduse de roboții umanoizi în viitor.
+</p>
+
+    <img src="procesor.png" alt="Componente hardware pentru roboți">
+<a href="#" class="to-top">Revenire Sus</a>
+
+</div>
+
+<!-- Pagina Software -->
+<div id="software" class="container">
+    <h2>Software de Control</h2>
+    <p>
+Software-ul de control reprezintă componenta centrală a funcționării roboților umanoizi, acționând ca un „creier” care coordonează percepția, procesarea informațiilor și luarea deciziilor. Dezvoltarea și integrarea algoritmilor avansați, precum învățarea profundă (deep learning) și procesarea naturală a limbajului (NLP), au transformat capacitățile roboților moderni, permițându-le să înțeleagă lumea înconjurătoare și să interacționeze cu oamenii într-un mod natural și intuitiv. Învățarea profundă, bazată pe rețele neuronale convoluționale (CNN) și rețele neuronale recurente (RNN), este utilizată pentru procesarea vizuală, recunoașterea obiectelor, navigația autonomă și chiar pentru interpretarea emoțiilor umane. Rețelele CNN, de exemplu, permit roboților să analizeze datele colectate de camerele de viziune și să identifice obiectele sau persoanele cu o acuratețe extrem de ridicată (ceva de genul analizelor vizuale pe care le făceau roboții din blockbuster-ul Terminator) Acești algoritmi sunt implementați pe procesoare performante sau acceleratoare AI, precum GPU-uri și ASIC-uri (menționat anterior) specializate, pentru a permite procesarea rapidă a volumelor mari de date.
+Din punct de vedere tehnic, software-ul de control al roboților integrează modele pre-antrenate pe seturi masive de date, utilizând tehnici precum transferul de învățare (transfer learning). Acest proces permite optimizarea rețelelor neuronale pentru sarcini specifice, reducând semnificativ timpul de antrenare. Un exemplu concret este navigația autonomă într-un mediu necunoscut. Prin combinarea imaginilor oferite de senzorii LiDAR și camerele RGB-D, algoritmii de învățare profundă creează hărți tridimensionale ale spațiului, identificând obstacolele și planificând trasee sigure. Deciziile sunt luate pe baza unor algoritmi de control distribuit, care permit robotului să ajusteze mișcările în funcție de schimbările din mediul înconjurător.
+Procesarea naturală a limbajului (NLP) este un domeniu cheie în interacțiunea naturală între roboți și oameni, permițând roboților să înțeleagă comenzi vocale, să răspundă coerent și să susțină conversații complexe. Aceste abilități sunt bazate pe modele avansate de limbaj, precum GPT (Generative Pre-trained Transformer) și BERT (Bidirectional Encoder Representations from Transformers), care sunt capabile să analizeze structura și contextul propozițiilor, oferind răspunsuri relevante și logice.
+În cadrul ingineriei software, implementarea acestor modele implică procesarea semnalelor audio, conversia acestora în text prin recunoaștere vocală automată (ASR) și interpretarea intenției utilizatorului prin analiza semantică. Sistemele de NLP avansate sunt integrate cu software-ul de control al robotului pentru a genera răspunsuri vocale și acțiuni adecvate. Aceste funcționalități sunt posibile datorită utilizării platformelor de calcul distribuit și a tehnologiilor de edge computing, care reduc latența în procesare și permit răspunsuri aproape în timp real. De exemplu, un robot umanoid dotat cu NLP poate răspunde 
+la întrebări, oferi informații sau chiar efectua sarcini complexe în baza unui set de comenzi vocale. Algoritmii de învățare automată permit adaptarea continuă a sistemului, îmbunătățind acuratețea răspunsurilor pe măsură ce robotul acumulează mai multe date din interacțiunile anterioare
+
+</p>
+    <img src="android gif.gif" alt="Integrarea software-ului în roboți">
+<a href="#" class="to-top">Revenire Sus</a>
+</div>
+
+<!-- Pagina Etică -->
+<div id="etica" class="container">
+    <h2>Etică în Robotică</h2>
+    <p>
+Implicațiile etice ale utilizării AI în roboți includ transparența, siguranța și responsabilitatea. Pe măsură ce tehnologia avansează, este crucial ca cercetătorii și dezvoltatorii să colaboreze pentru a crea soluții inovatoare care nu doar să îmbunătățească performanțele roboților, dar să și contribuie la integrarea lor armonioasă în viața cotidiană. Astfel, prin combinarea cercetării în ingineria electrică, inteligența artificială și etica roboticii, se poate ajunge la crearea unor sisteme autonome care sunt nu doar eficiente și sustenabile, dar și empatice și benefice pentru societate.
+</p>
+    <img src="etica.jpg" alt="Etică în tehnologie">
+<a href="#" class="to-top">Revenire Sus</a>
+</div>
+
+<footer>
+    <div class="contact">
+        <h3>Contact</h3>
+        <p>Nume: Spiridon Daniel-Valentin</p>
+        <p>Email: spiridon_daniel05@yahoo.com</p>
+        <p>Telefon: 0763433450</p>
+	<p>Grupa 1124</p>
+    </div>
+    <p>&copy; 2024 Mașinării Conștiente. Toate drepturile rezervate. Sau așa ar trebui.</p>
+</footer>
+
+</body>
+</html>
